@@ -16,5 +16,8 @@ const coding = ["js", "node", "react", "ruby", "cpp"];
 // coding.forEach(printMe);
 
 coding.forEach((item, index, arr) => {
+  console.log(item, index, arr);
+});
+coding.forEach((item, index, arr) => {
   console.log(item, index, arr[index]);
 });
