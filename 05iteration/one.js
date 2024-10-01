@@ -13,8 +13,25 @@ for (let i = 0; i <= 10; i++) {
 }
 
 for (let i = 0; i <= 10; i++) {
-  console.log(`Outer loop ${i}`);
+  // console.log(`Outer loop ${i}`);
   for (let j = 0; j <= 10; j++) {
-    console.log(`Inner loop ${j}`);
+    // console.log(`Inner loop value ${j} and inner loop is ${i}`);
+    // console.log(i + "*" + j + " = " + i * j);
   }
+}
+
+// for (index = 1; index <= 20; index++) {
+//   console.log(`Value of index is ${index}`);
+//   if (index === 5) {
+//     console.log("5 is detected");
+//     break;
+//   }
+// }
+
+for (index = 1; index <= 20; index++) {
+  if (index === 5) {
+    console.log("5 is detected");
+    continue;
+  }
+  console.log(`Value of index is ${index}`);
 }
